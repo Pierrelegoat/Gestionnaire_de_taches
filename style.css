@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+li {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    margin: 15px;
+}
+.bouton {
+    background-color: rgb(194, 120, 10);
+    margin-left: 10px;
+}
+.bouton:hover {
+    background-color: yellow;
+}
+h1 {
+    margin-bottom: 50px;
+}
